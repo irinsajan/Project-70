@@ -9,7 +9,7 @@ import WriteStoryScreen from './screens/WriteStoryScreen';
 export default class App extends React.Component {
   render(){
     return (
-        <View>
+        <View style={styles.container}>
           
         <AppContainer />
         </View>
@@ -55,7 +55,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'red',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
